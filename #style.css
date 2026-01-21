@@ -1,0 +1,109 @@
+  h2{
+font-family:Arial, Helvetica, sans-serif;
+    color:brown;
+
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:aqua;
+}
+
+ol{
+    font-size:20px;
+    color:black;
+
+}
+#hobbies{
+    background-color:yellow;
+}
+.class{
+    color:green;
+}
+header {
+    background-color: greenyellow;
+    text-align:center;
+    padding:10px; 
+    color:brown;
+}
+footer{
+    background-color:aquamarine;
+    text-align:center;
+    padding:16px;
+}
+nav{
+    overflow:hidden;
+    background-color: greenyellow;
+}
+nav a{
+        float:left;
+        display:block;
+        color:#f2f2f2;
+        text-align:center;
+        padding:14px 16px;
+
+    }
+
+nav a:hover{
+    background-color:grey;
+    color:hotpink;
+}
+/* formating hero section */
+.hero{
+    min-height:500px;
+    background:linear-gradient(
+        rgba(0,0,0,0.6),
+          rgba(0,0,0,0.6)
+    ),
+    url("computer.JPG");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px 20px;
+}
+.hero-content{
+    max-width:800px;
+    color:white;
+}
+.hero h2{
+    font-size:3rem;
+    margin-bottom:10px;
+
+
+}
+ .hero h3{
+     font-size:1.5rem;
+     font-weight:400;
+     margin-bottom:20px;
+     color:white;
+     
+
+ }
+ .hero p{
+     font-size:1.1rem;
+     line-height:1.6;
+     margin-bottom:30px;
+ }
+
+ .hero-buttons{
+     display:flex;
+     gap:15px;
+     justify-content:center;
+     flex-wrap:wrap;
+
+ }
+ header{
+     background-color:blue;
+     text-align:center;
+     padding:18px;
+     color:brown;
+
+ }
+ footer{
+     background-color:chocolate;
+     text-align:center;
+     padding:16px;
+ }
+
